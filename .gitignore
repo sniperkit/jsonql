@@ -1,26 +1,22 @@
-# Compiled Object files, Static and Dynamic libs (Shared Objects)
-*.o
-*.a
-*.so
+vendor/
+glide
+build/
 
-# Folders
-_obj
-_test
+vendor
+vendor/
+vendor/*
+vendor/**
 
-# Architecture specific extensions/prefixes
-*.[568vq]
-[568vq].out
+textql
 
-*.cgo1.go
-*.cgo2.c
-_cgo_defun.c
-_cgo_gotypes.go
-_cgo_export.*
+cmd/textql/textql*
 
-_testmain.go
+bin
+bin/
+bin/*
+bin/**
 
-*.exe
-*.test
-*.prof
-
-.DS_Store
+dist
+dist/
+dist/*
+dist/**
